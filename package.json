@@ -1,0 +1,23 @@
+{
+  "name": "zhiyu-remotion-gallery",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio --port 3001",
+    "build": "remotion render Gallery out/video.mp4",
+    "upgrade": "remotion upgrade",
+    "render:json": "remotion render --sequence-format=json"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.539",
+    "typescript": "5.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}
